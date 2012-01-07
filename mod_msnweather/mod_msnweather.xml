@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+    <name>MSN Weather Module</name>
+    <author>Joomla Penguin</author>
+    <creationDate>December 2007</creationDate>
+    <copyright>(C) 2007 Joomla Penguin</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>pingvin@pingvin.biz.hr</authorEmail>
+    <authorUrl>www.joomla-penguin.com</authorUrl>
+    <version>1.0</version>
+    <description>Simple module to grab meteorological data, via MSN Weather. City codes are also available on MSN Weather.
+    Example use: (PKXX0008=Karachi,PKXX0011=Lahore,PKXX0021=Quetta,PKXX0014=Peshawar)
+    ATTENTION: /cache directory must be writable. EDIT The project is hosted at now github and modified by Ahmed Shaikh Memon ahmedshaikhm@hotmail.com, all the due credits goes to original author Joomla Penguin, Ahmed only made it work with latest changes.</description>
+    <files>
+        <filename module="mod_msnweather">mod_msnweather.php</filename>
+    </files>
+    <params>
+        <param name="cities" type="text" default="PKXX0008=Karachi,PKXX0011=Lahore,PKXX0021=Quetta,PKXX0014=Peshawar" label="Cities" description="Enter city codes separated by a comma (with no spaces)." />
+        <param name="degrees" type="radio" default="c" label="Degrees" description="Celsius or Fahrenheit degrees.">
+            <option value="c">Celsius</option>
+            <option value="f">Fahrenheit</option>
+        </param>
+            <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+        </params>   
+</mosinstall>

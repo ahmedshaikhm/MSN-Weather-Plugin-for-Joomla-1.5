@@ -1,0 +1,10 @@
+Hi thank you for your interest in this plugin.
+
+This module is fix for MSN Weather module http://extensions.joomla.org/extensions/maps-a-weather/weather/weather-forecasts/8180 that was developed back in year 2009.
+
+Now it break at couple of places, so this module is a fixed version of that one.
+
+The module has same license as of "MSN Weather module" (GPLv2 or later Non-Commercial) visit Joomla extensin page for more information.
+
+Known issues:
+When you change degrees to Fahrenheit from Celsius, it wont immediately effect the change, because cache lifetime needs to be fixed. Either delete cache/msnweather.txt file manually.
